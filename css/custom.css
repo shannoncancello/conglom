@@ -120,6 +120,17 @@ footer {
     width: 85%;
     height: 85%;
   }
+  #overlay img {
+  max-width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-responsive {
+    width: 40px;
+    height: 40px; 
+    margin: 0 1em 0 auto;
+  }
 }
 
 @media (max-width: 992px){
@@ -127,13 +138,12 @@ footer {
     float: none !important;
     padding: 3em;
   }
+  #overlay img {
+  max-width: 40%;
+  }
 }
 
 
 /* Small devices (tablets, 768px and up) */
-
-
 /* Medium devices (desktops, 992px and up) */
-
-
 /* Large devices (large desktops, 1200px and up) */
