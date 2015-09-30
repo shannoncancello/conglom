@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ConGlomeration</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    
+  </head>
+
+  <body> 
+    <header>
+      <img src="banner.js" id="banner" alt="1 of 4 custom nerd themed images with our name Conglomeration"/>
+    </header>
+    <nav>
+    <ul class="nav nav-pills navbar-inverse">
+      <li role="presentation" class="active"><a href="home.html">Home</a></li>
+      <li role="presentation"><a href="gaming.html">Gaming</a></li>
+      <li role="presentation"><a href="masquerade.html">Masquerade</a></li>
+      <li role="presentation"><a href="sponsor.html">Sponsor Us</a></li>
+      <li role="presentation"><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 left">
+        <h1>Conglomeration 2016 <br>
+        <small>April 8-10 | Ramada Plaza Hotel</small></h1>
+        <h3>Sponsored by
+        <em><a href="sponsor.html">YOU!</a></em>
+        </h3>
+
+        <p>
+        Join us at ConGlomeration, Louisville&#39;s only multimedia sci-fi and fantasy convention run 
+        <em> for </em>
+        fans, 
+        <em> by </em>
+        fans. 50 uninterrupted hours of interactive family-friendly fandom for enthusiasts of every science fiction and fantasy franchise known to humankind.
+        </p>
+
+        <p>At ConGlomeration, the fan experience is about more than spending hundreds of dollars to stand in line for hours with only a generic celebrity photo and autograph to show for it.
+        </p>
+      
+        <h4>Entertainment + Mentorship = Mentortainment</h4>
+        <p>All our activities are interactive and fan-driven. We combine entertaining events designed for sheer joy with interactive mentorship intended to teach you new skills to enhance and expand your own sci-fi & fantasy fan activities. Because we&#39;re geeks, we call it mentortainment. (You can steal that.)</p>
+    
+        <h4>Invent Your Own Games</h4>
+        <p>At ConGlomeration, you don&#39;t just play your favorite RPG, card and tabletop games, you&#39;ll learn to run, customize and design your own. This year you&#39;ll be mentortained by game designers like past (but perpetually returning) Gaming Guests of Honor Andy Chambers, Sean Patrick Fannon, Carrin Seabolt, Ian <q>Lizard</q> Harac and 2016 Media Guest of Honor (and Wil Wheaton&#39;s first Tabletop guest gamer) Jenna Busch. When these pros aren&#39;t running panels or workshops, you can almost certainly find them in our 24-hour game room.</p>
+    
+        <h4>Design Your Own Collectibles</h4>
+        <p>Don&#39;t just buy your favorite collectible art, crafts and costumes, we&#39;ll teach you how to create and personalize your own secret treasures and alter egos. Our storied roster of past artists and costuming guests includes the likes of costumers Sheila Lenkman, Scott Corwin and Laura Reynolds, sculptor Vincent Villafranca, and legendary illustrator Boris Vallejo and frequent Geek DIY guest Jenna Busch. It all culminates in our weekend-long Genre Art Show and Saturday Night Masquerade.</p>
+        </div>
+        
+        <div class="col-md-4-offset-1 pull-right">  
+        <div style="width:195px; text-align:center;" alt="widget with a countdown by day to next year's conglomeration"><iframe  src="https://www.eventbrite.com/countdown-widget?eid=16931329061" frameborder="0" height="432" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:195px; text-align:center;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/ecount">Powered by Eventbrite</a></div></div>
+        </div>
+        
+      </div>
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="col-md-12">
+          <a href="http://twitter.com/shannoncancello"><img src="photos/twitter.png" alt="Twitter Logo" class="img-responsive"></a>
+          <a href="http://facebook.com/shannoncancello"><img src="photos/facebook.png" alt="Facebook Logo" class="img-responsive"></a>
+          <a href="http://instagram.com/shannoncancello"><img src="photos/instagram.png" alt="Instagram Logo" class="img-responsive"></a>
+          <a href="http://pinterest.com/shannoncancello"><img src="photos/pinterest.png" alt="Pinterest Logo" class="img-responsive"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
+  <script type="text/javascript">
+    var images = new Array('photos/avengers.jpg', 'photos/doctor.jpg', 'photos/tmng.jpg', 'photos/trek.jpg');
+    var l = images.length;
+    var random_no = Math.floor(l*Math.random());
+    document.getElementById("banner").src = images[random_no];
+  </script>
+  
+</html>
