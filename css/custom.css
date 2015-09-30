@@ -26,12 +26,20 @@ footer {
   float: none;
 }
 
-.navbar-inverse {
-  background-color: #333;
+.content-photo {
+  width: 50%;
+  height: 50%;
+  margin: 0;
+  padding: 1em;
+  float: right;
 }
 
 
 /* Nav Stuff */
+
+.navbar-inverse {
+  background-color: #333;
+}
 
 .navbar, .navbar-inverse {
   border-radius: 0;
@@ -59,20 +67,73 @@ footer {
   height: 100%;
 }
 
+
+/*  Image Gallery */
+#imageGallery {
+  list-style:none;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  max-width: 780px;
+  text-align: center;
+}
+#imageGallery li {
+  display: inline-block;
+  padding: 8px;
+  background:white;
+  margin:10px;
+}
+#imageGallery li img {
+  display: block;
+}
+#imageGallery a {
+  text-decoration: none;
+}
+
+#overlay {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin-top: 3.5%;
+  max-width: 30%;
+}
+
+#overlay p {
+  font-size: 100%;
+  color: white;
+  background: rgba(0,0,0,0.1)
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+@media (max-width: 480px){
+  .content-photo {
+    float: none;
+    width: 85%;
+    height: 85%;
+  }
+}
+
+@media (max-width: 992px){
+  .col-md-4-offset-1 {
+    float: none !important;
+    padding: 3em;
+  }
+}
+
 
 /* Small devices (tablets, 768px and up) */
-@media (max-width: @screen-sm-min) { 
-  
-}
+
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { 
 
-}
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
-
-}
